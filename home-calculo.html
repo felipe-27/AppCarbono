@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./home-calculo1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="home-calculo">
+      <header class="title37"><div class="title38">Calculadora</div></header>
+      <div class="content7">
+        <label class="body4"
+          >Descubra agora quanto gás carbônico é gerado pelos costumes do seu
+          dia a dia</label
+        >
+        <div class="vo">
+          <img class="vovo2-1-icon" alt="" src="public/vovo2-1@2x.png" />
+        </div>
+        <button class="button24" id="button">
+          <div class="state-layer42">
+            <div class="label-text33">Começar</div>
+          </div>
+        </button>
+      </div>
+      <div class="navigation-bar3">
+        <div class="building-blocks-segment9" id="buildingBlocksSegment">
+          <div class="icon-container9">
+            <div class="state-layer43">
+              <img class="home-icon" alt="" src="public/home.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment10">
+          <div class="icon-container10">
+            <div class="state-layer43">
+              <img class="home-icon" alt="" src="public/icon1.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment9" id="buildingBlocksSegment2">
+          <div class="icon-container9">
+            <div class="state-layer43">
+              <img class="home-icon" alt="" src="public/opes.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./calculo.html";
+        });
+      }
+      
+      var buildingBlocksSegment = document.getElementById("buildingBlocksSegment");
+      if (buildingBlocksSegment) {
+        buildingBlocksSegment.addEventListener("click", function (e) {
+          window.location.href = "./home-bem.html";
+        });
+      }
+      
+      var buildingBlocksSegment2 = document.getElementById("buildingBlocksSegment2");
+      if (buildingBlocksSegment2) {
+        buildingBlocksSegment2.addEventListener("click", function (e) {
+          window.location.href = "./home-opcoes.html";
+        });
+      }
+      </script>
+  </body>
+</html>

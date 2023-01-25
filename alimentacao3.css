@@ -1,0 +1,344 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.group-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.close3 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.exit3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.progresso-icon3 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 2.07px;
+  flex-shrink: 0;
+}
+.line3 {
+  flex: 1;
+  margin: 0 !important;
+  position: absolute;
+  width: calc(100% - 99px);
+  top: calc(50% - 21px);
+  right: 45px;
+  left: 54px;
+  height: 42px;
+  display: flex;
+  flex-direction: column;
+  padding: 20.71065902709961px 0;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+.fundo-icon12 {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.alimentao4,
+.comida-icon {
+  position: absolute;
+  margin: 0 !important;
+}
+.comida-icon {
+  top: calc(50% - 10.86px);
+  left: calc(50% - 10.86px);
+  width: 21.84px;
+  height: 21.84px;
+  flex-shrink: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+.alimentao4 {
+  top: 42px;
+  left: calc(50% - 44px);
+  letter-spacing: 0.5px;
+  z-index: 2;
+}
+.dots12 {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+.borda-icon3,
+.fundo-icon13 {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  flex-shrink: 0;
+  z-index: 0;
+}
+.borda-icon3 {
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.dots13,
+.dots14 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+}
+.dots13 {
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+.dots14 {
+  z-index: 3;
+}
+.alimentacao2,
+.dots14,
+.dots15 {
+  display: flex;
+  flex-direction: row;
+}
+.dots15 {
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  gap: 10px;
+  z-index: 4;
+}
+.alimentacao2 {
+  position: absolute;
+  width: 100%;
+  top: calc(50% - 37.5px);
+  right: 0;
+  left: 0;
+  height: 42px;
+  padding: 0 32px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+}
+.body5,
+.progress-bar3 {
+  align-self: stretch;
+  position: relative;
+}
+.progress-bar3 {
+  height: 75px;
+  flex-shrink: 0;
+}
+.body5 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  font-family: Rubik;
+  background: linear-gradient(rgba(33, 125, 51, 0.11), rgba(33, 125, 51, 0.11)),
+    #fffbff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: normal;
+}
+.carne-vermelha {
+  position: relative;
+  letter-spacing: 0.5px;
+  font-weight: 600;
+}
+.carne-vermelha-icon {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.head3,
+.line-div {
+  align-self: stretch;
+}
+.head3 {
+  display: flex;
+  flex-direction: row;
+  padding: 0 24px;
+  align-items: center;
+  justify-content: space-between;
+}
+.line-div {
+  position: relative;
+  border-top: 2px solid #176727;
+  box-sizing: border-box;
+  height: 2px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+.linha3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.no-consumo {
+  position: relative;
+  letter-spacing: 0.5px;
+}
+.descricao2 {
+  align-self: stretch;
+  padding: 0 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+.descricao2,
+.radio-buttons,
+.selecao {
+  display: flex;
+  flex-direction: row;
+}
+.radio-buttons {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+.selecao {
+  align-self: stretch;
+  padding: 0 4px;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.escolha-alimento,
+.forms {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+.forms {
+  padding: 10px 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+}
+.escolha-alimento {
+  border-radius: 16px;
+  background-color: #279d3e;
+  box-shadow: 4px 8px 20px -5px rgba(0, 0, 0, 0.2);
+  padding: 10px 6px;
+  align-items: center;
+  justify-content: center;
+}
+.carne-de-porco {
+  position: relative;
+  width: 54.03px;
+  height: 54px;
+  flex-shrink: 0;
+}
+.content8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: left;
+  font-size: 18px;
+  color: #fffbff;
+}
+.label-text34 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Rubik;
+  background: linear-gradient(rgba(33, 125, 51, 0.11), rgba(33, 125, 51, 0.11)),
+    #fffbff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+.button25,
+.state-layer46 {
+  align-items: center;
+  justify-content: center;
+}
+.state-layer46 {
+  display: none;
+  flex-direction: row;
+  padding: 10px 12px;
+}
+.button25 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+.state-layer47 {
+  flex-direction: row;
+  padding: 10px 12px;
+  justify-content: center;
+}
+.actions10,
+.alimentacao1,
+.state-layer47 {
+  display: flex;
+  align-items: center;
+}
+.actions10 {
+  align-self: stretch;
+  overflow: hidden;
+  flex-direction: row;
+  padding: 16px 6px;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.alimentacao1 {
+  position: relative;
+  background: linear-gradient(168.55deg, #279d3e, #176727);
+  width: 100%;
+  flex-direction: column;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 24px;
+  text-align: center;
+  font-size: 16px;
+  color: #fff;
+  font-family: "Source Sans Pro";
+}

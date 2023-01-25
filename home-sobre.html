@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./home-sobre1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="home-sobre">
+      <header class="title52"><div class="title53">Boas vindas!</div></header>
+      <div class="content10">
+        <div class="carrossel1">
+          <div class="basic-dialog3">
+            <div class="text-content3">
+              <div class="title-description3">
+                <img
+                  class="title-description-inner"
+                  alt=""
+                  src="public/frame-65@2x.png"
+                />
+                <h1 class="title54">Como fazer o bem</h1>
+                <label class="body18"
+                  >Ainda tem dúvidas sobre como plantar uma árvore? Confira
+                  agora mesmo um pequeno manual</label
+                >
+              </div>
+            </div>
+            <div class="actions14">
+              <div class="button30">
+                <div class="state-layer60">
+                  <div class="label-text39">Confira</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="basic-dialog4">
+            <div class="text-content3">
+              <div class="title-description3">
+                <img
+                  class="title-description-inner"
+                  alt=""
+                  src="public/sobrensimagem@2x.png"
+                />
+                <h1 class="title54">Sobre nós</h1>
+                <label class="body18"
+                  >Acesse um resumo sobre os desenvolvedores e a sua instituição
+                  de ensino</label
+                >
+              </div>
+            </div>
+            <div class="actions15">
+              <button class="button31" id="button">
+                <div class="state-layer60">
+                  <div class="label-text40">Confira</div>
+                </div>
+              </button>
+            </div>
+          </div>
+          <div class="basic-dialog4">
+            <div class="text-content3">
+              <div class="title-description3">
+                <img
+                  class="title-description-inner"
+                  alt=""
+                  src="public/frame-653@2x.png"
+                />
+                <h1 class="title54">Mostre sua ação</h1>
+                <label class="body18"
+                  >Temos uma ótima alternativa para você que acabou de plantar
+                  sua primeira muda!</label
+                >
+              </div>
+            </div>
+            <div class="actions14">
+              <div class="button30">
+                <div class="state-layer60">
+                  <div class="label-text39">Confira</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-buttons1">
+          <img
+            class="left-icon1"
+            alt=""
+            src="public/left.svg"
+            id="leftIcon"
+          /><img
+            class="left-icon1"
+            alt=""
+            src="public/right1.svg"
+            id="rightIcon"
+          />
+        </div>
+      </div>
+      <div class="navigation-bar7">
+        <div class="building-blocks-segment21">
+          <div class="icon-container21">
+            <div class="state-layer63">
+              <img class="icon16" alt="" src="public/icon12.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment22" id="buildingBlocksSegment1">
+          <div class="icon-container22">
+            <div class="state-layer63">
+              <img class="icon16" alt="" src="public/icon13.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment22" id="buildingBlocksSegment2">
+          <div class="icon-container22">
+            <div class="state-layer63">
+              <img class="icon16" alt="" src="public/icon14.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./sobre-nos.html";
+        });
+      }
+      
+      var leftIcon = document.getElementById("leftIcon");
+      if (leftIcon) {
+        leftIcon.addEventListener("click", function (e) {
+          window.location.href = "./home-acao.html";
+        });
+      }
+      
+      var rightIcon = document.getElementById("rightIcon");
+      if (rightIcon) {
+        rightIcon.addEventListener("click", function (e) {
+          window.location.href = "./home-bem.html";
+        });
+      }
+      
+      var buildingBlocksSegment1 = document.getElementById("buildingBlocksSegment1");
+      if (buildingBlocksSegment1) {
+        buildingBlocksSegment1.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var buildingBlocksSegment2 = document.getElementById("buildingBlocksSegment2");
+      if (buildingBlocksSegment2) {
+        buildingBlocksSegment2.addEventListener("click", function (e) {
+          window.location.href = "./home-opcoes.html";
+        });
+      }
+      </script>
+  </body>
+</html>

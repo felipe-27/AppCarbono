@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./resultado-grafico1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="resultado-grafico">
+      <div class="title-parent">
+        <div class="title"><div class="title1">Resultados</div></div>
+        <div class="indicator">
+          <div class="building-blocks" id="buildingBlocksContainer">
+            <div class="container">
+              <div class="state-layer">
+                <div class="label-text">Emissão</div>
+              </div>
+            </div>
+          </div>
+          <div class="building-blocks1" id="buildingBlocksContainer1">
+            <div class="container1">
+              <div class="state-layer">
+                <div class="label-text">Árvores</div>
+              </div>
+            </div>
+          </div>
+          <div class="building-blocks2">
+            <div class="container2">
+              <div class="state-layer2">
+                <img
+                  class="iconscheck-24px"
+                  alt=""
+                  src="public/iconscheck-24px.svg"
+                />
+                <div class="label-text">Gráfico</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="detalhes">
+        <img class="grafico-icon" alt="" src="public/grafico.svg" />
+        <div class="legenda">
+          <div class="energia">
+            <div class="porcentagem">
+              <div class="porcentagem-child"></div>
+              <div class="div">25%</div>
+            </div>
+            <div class="energia-domstica">Energia doméstica</div>
+          </div>
+          <div class="energia">
+            <div class="porcentagem">
+              <div class="porcentagem-item"></div>
+              <div class="div">25%</div>
+            </div>
+            <div class="energia-domstica">Transporte aéreo</div>
+          </div>
+          <div class="energia">
+            <div class="porcentagem">
+              <div class="porcentagem-inner"></div>
+              <div class="div">25%</div>
+            </div>
+            <div class="energia-domstica">Transporte terrestre</div>
+          </div>
+          <div class="energia">
+            <div class="porcentagem">
+              <div class="rectangle-div"></div>
+              <div class="div">25%</div>
+            </div>
+            <div class="energia-domstica">Alimentação</div>
+          </div>
+        </div>
+      </div>
+      <div class="button-wrapper">
+        <button class="button" id="button">
+          <div class="state-layer3">
+            <div class="label-text3">CALCULAR NOVAMENTE</div>
+          </div>
+        </button>
+      </div>
+      <div class="navigation-bar">
+        <button class="building-blocks-segment" id="buildingBlocksSegment">
+          <div class="icon-container">
+            <div class="state-layer4">
+              <img class="icon" alt="" src="public/icon.svg" />
+            </div>
+          </div></button
+        ><button class="building-blocks-segment">
+          <div class="icon-container1">
+            <div class="state-layer4">
+              <img class="icon" alt="" src="public/icon1.svg" />
+            </div>
+          </div></button
+        ><button class="building-blocks-segment" id="buildingBlocksSegment2">
+          <div class="icon-container">
+            <div class="state-layer4">
+              <img class="icon" alt="" src="public/icon2.svg" />
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var buildingBlocksContainer = document.getElementById(
+        "buildingBlocksContainer"
+      );
+      if (buildingBlocksContainer) {
+        buildingBlocksContainer.addEventListener("click", function (e) {
+          window.location.href = "./resultado-emissao.html";
+        });
+      }
+      
+      var buildingBlocksContainer1 = document.getElementById(
+        "buildingBlocksContainer1"
+      );
+      if (buildingBlocksContainer1) {
+        buildingBlocksContainer1.addEventListener("click", function (e) {
+          window.location.href = "./resultado-arvore.html";
+        });
+      }
+      
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var buildingBlocksSegment = document.getElementById("buildingBlocksSegment");
+      if (buildingBlocksSegment) {
+        buildingBlocksSegment.addEventListener("click", function (e) {
+          window.location.href = "./home-bem.html";
+        });
+      }
+      
+      var buildingBlocksSegment2 = document.getElementById("buildingBlocksSegment2");
+      if (buildingBlocksSegment2) {
+        buildingBlocksSegment2.addEventListener("click", function (e) {
+          window.location.href = "./home-opcoes.html";
+        });
+      }
+      </script>
+  </body>
+</html>

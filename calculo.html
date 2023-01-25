@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./calculo1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="calculo">
+      <header class="title32">
+        <div class="title33">Pronto para os cálculos?</div>
+      </header>
+      <div class="content5">
+        <label class="body"
+          >Responda algumas questões para o sistema do nosso aplicativo realizar
+          os cálculos necessários.</label
+        ><label class="body"
+          >No final, saiba quantas árvores você teria que plantar para
+          recompensar as taxas de carbono que você emitiu!</label
+        ><label class="body"
+          >Caso seja perguntado sobre algum produto ou serviço que você não
+          tenha utilizado, deixe os campos em branco.</label
+        >
+      </div>
+      <div class="actions8">
+        <button class="button20" id="Começar calculo">
+          <div class="state-layer38">
+            <div class="label-text29">Começar</div>
+          </div></button
+        ><button class="button21" id="button1">
+          <div class="state-layer38">
+            <div class="label-text30">Voltar</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var button = document.getElementById("Começar calculo");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./alimentacao.html";
+        });
+      }
+      
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      </script>
+  </body>
+</html>

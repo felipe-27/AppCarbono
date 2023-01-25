@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.title33 {
+  flex: 1;
+  position: relative;
+  font-weight: 600;
+  background: linear-gradient(rgba(33, 125, 51, 0.11), rgba(33, 125, 51, 0.11)),
+    #fffbff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: normal;
+}
+.title32 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 32px;
+  font-family: Rubik;
+}
+.body,
+.content5,
+.title32 {
+  align-self: stretch;
+}
+.body {
+  position: relative;
+  letter-spacing: 0.5px;
+  background: linear-gradient(rgba(33, 125, 51, 0.11), rgba(33, 125, 51, 0.11)),
+    #fffbff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  mix-blend-mode: normal;
+}
+.content5 {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 0 8px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.label-text29 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Rubik;
+  color: #513720;
+  text-align: center;
+}
+.button20,
+.state-layer38 {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 12px;
+  align-items: center;
+  justify-content: center;
+}
+.button20 {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 0;
+  background-color: #f9cb40;
+  align-self: stretch;
+  border-radius: 24px;
+  flex-direction: column;
+}
+.label-text30 {
+  position: relative;
+  font-size: 16px;
+  letter-spacing: 0.25px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: Rubik;
+  color: #fffbff;
+  text-align: center;
+}
+.button21 {
+  cursor: pointer;
+  border: 0;
+  padding: 8px 0;
+  background-color: transparent;
+  align-self: stretch;
+  border-radius: 24px;
+  justify-content: center;
+}
+.actions8,
+.button21,
+.calculo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.actions8 {
+  align-self: stretch;
+  overflow: hidden;
+  padding: 16px;
+  justify-content: center;
+  gap: 8px;
+}
+.calculo {
+  position: relative;
+  background: linear-gradient(168.55deg, #279d3e, #176727);
+  width: 100%;
+  height: 800px;
+  padding: 32px 24px;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  gap: 32px;
+  text-align: left;
+  font-size: 22px;
+  font-family: "Source Sans Pro";
+}

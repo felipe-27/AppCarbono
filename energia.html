@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./energia3.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="energia1">
+      <header class="exit1">
+        <button class="close1" id="close">
+          <img class="close-item" alt="" src="public/group-3779.svg" />
+        </button>
+      </header>
+      <div class="progress-bar1">
+        <div class="energia2">
+          <div class="line1">
+            <img class="progresso-icon1" alt="" src="public/progresso.svg" />
+          </div>
+          <div class="dots4">
+            <img class="fundo-icon4" alt="" src="public/fundo.svg" /><img
+              class="airplane2-icon"
+              alt=""
+              src="public/food1.svg"
+            />
+          </div>
+          <div class="dots5">
+            <img class="fundo-icon4" alt="" src="public/fundo5.svg" /><img
+              class="airplane2-icon"
+              alt=""
+              src="public/bus1.svg"
+            />
+          </div>
+          <div class="dots6">
+            <img class="fundo-icon4" alt="" src="public/fundo6.svg" /><img
+              class="airplane2-icon"
+              alt=""
+              src="public/airplane2.svg"
+            />
+          </div>
+          <div class="dots7">
+            <img class="fundo-icon7" alt="" src="public/fundo2.svg" /><img
+              class="energia-icon"
+              alt=""
+              src="public/energia.svg"
+            />
+            <div class="alimentao2">Energia</div>
+          </div>
+        </div>
+      </div>
+      <div class="content1">
+        <div class="diga-a-quantidade">
+          Diga a quantidade por mês que você usa de:
+        </div>
+        <div class="quantidade-mensal-de">
+          <div class="energia-domstica1">
+            <div class="head">
+              <div class="energia-eltrica">Energia elétrica</div>
+              <img class="eletrica-icon" alt="" src="public/eletrica.svg" />
+            </div>
+            <div class="linha"><div class="linha-child"></div></div>
+            <div class="box-texto">
+              <div class="container9">
+                <input
+                  class="caixa-de-texto2"
+                  type="number"
+                  placeholder="Quantidade"
+                />
+              </div>
+              <div class="energia-eltrica">kW/h</div>
+            </div>
+          </div>
+          <div class="energia-domstica1">
+            <div class="head">
+              <div class="energia-eltrica">Gás natural</div>
+              <img
+                class="gas-natural-icon"
+                alt=""
+                src="public/gas-natural.svg"
+              />
+            </div>
+            <div class="linha"><div class="linha-child"></div></div>
+            <div class="box-texto">
+              <div class="container9">
+                <input
+                  class="caixa-de-texto2"
+                  type="number"
+                  placeholder="Quantidade"
+                />
+              </div>
+              <div class="energia-eltrica">kW/h</div>
+            </div>
+          </div>
+          <div class="energia-domstica1">
+            <div class="head">
+              <div class="energia-eltrica">Botijão de gás (GLP)</div>
+              <img class="gas-natural-icon" alt="" src="public/glp.svg" />
+            </div>
+            <div class="linha"><div class="linha-child"></div></div>
+            <div class="box-texto">
+              <div class="container9">
+                <input
+                  class="caixa-de-texto2"
+                  type="number"
+                  placeholder="Quantidade"
+                />
+              </div>
+              <div class="energia-eltrica">botijões</div>
+            </div>
+          </div>
+        </div>
+        <div class="quantas-pessoas">
+          <div class="title6">
+            <div class="diga-a-quantidade">
+              Quantas pessoas moram na sua casa?
+            </div>
+            <div class="incluindo-voc">*Incluindo você</div>
+          </div>
+          <input
+            class="caixa-de-texto5"
+            type="number"
+            placeholder="Quantidade"
+            min="{1}"
+          />
+        </div>
+      </div>
+      <div class="actions1">
+        <div class="button5" id="buttonContainer">
+          <div class="state-layer23">
+            <div class="label-text14">Anterior</div>
+          </div>
+        </div>
+        <button class="button6" id="button">
+          <div class="state-layer23">
+            <div class="label-text15">Finalizar</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var close = document.getElementById("close");
+      if (close) {
+        close.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./transporte-aereo.html";
+        });
+      }
+      
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./resultado-emissao.html";
+        });
+      }
+      </script>
+  </body>
+</html>

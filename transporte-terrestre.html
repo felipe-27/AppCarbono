@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./transporte-terrestre.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="transporte-terrestre1">
+      <header class="exit2">
+        <button class="close2" id="close">
+          <img class="close-inner" alt="" src="public/group-3779.svg" />
+        </button>
+      </header>
+      <div class="progress-bar2">
+        <div class="transporte1">
+          <div class="line2">
+            <img class="progresso-icon2" alt="" src="public/progresso.svg" />
+          </div>
+          <div class="dots8">
+            <img class="fundo-icon8" alt="" src="public/fundo.svg" /><img
+              class="food-icon2"
+              alt=""
+              src="public/food2.svg"
+            />
+          </div>
+          <div class="dots9">
+            <img class="fundo-icon9" alt="" src="public/fundo9.svg" /><img
+              class="onibus-icon"
+              alt=""
+              src="public/onibus.svg"
+            />
+            <div class="alimentao3">Transporte</div>
+          </div>
+          <div class="dots10">
+            <img class="fundo-icon10" alt="" src="public/fundo10.svg" /><img
+              class="borda-icon1"
+              alt=""
+              src="public/borda1.svg"
+            />
+          </div>
+          <div class="dots11">
+            <img class="fundo-icon10" alt="" src="public/fundo3.svg" /><img
+              class="borda-icon1"
+              alt=""
+              src="public/borda.svg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="content6">
+        <div class="veculo">
+          <label class="title34">Escolha seu veículo</label
+          ><select class="caixa-de-texto6">
+            <option value="1">Carro</option>
+            <option value="2">Moto</option>
+          </select>
+        </div>
+        <div class="veculo">
+          <label class="title34">Qual o porte do veículo?</label
+          ><select class="caixa-de-texto6">
+            <option value="1">Pequeno</option>
+            <option value="2">Moto</option>
+            <option value="3">Grande</option>
+          </select>
+        </div>
+        <div class="veculo">
+          <label class="title34">Escolha o combustível</label
+          ><select class="caixa-de-texto6">
+            <option value="1">Gasolina</option>
+            <option value="2">Diesel</option>
+            <option value="3">Híbrido</option>
+            <option value="4">Flex</option>
+            <option value="5">GNV</option>
+          </select>
+        </div>
+        <div class="veculo">
+          <label class="title34"
+            >Em média, quantas horas por dia você dirige?</label
+          ><input
+            class="caixa-de-texto9"
+            type="number"
+            placeholder="Quantidade"
+          />
+        </div>
+      </div>
+      <div class="actions9">
+        <button class="button22">
+          <div class="state-layer40" id="stateLayerContainer">
+            <div class="label-text31">Anterior</div>
+          </div></button
+        ><button class="button22" id="button1">
+          <div class="state-layer41">
+            <div class="label-text31">Próximo</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var close = document.getElementById("close");
+      if (close) {
+        close.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var stateLayerContainer = document.getElementById("stateLayerContainer");
+      if (stateLayerContainer) {
+        stateLayerContainer.addEventListener("click", function (e) {
+          window.location.href = "./alimentacao.html";
+        });
+      }
+      
+      var button1 = document.getElementById("button1");
+      if (button1) {
+        button1.addEventListener("click", function (e) {
+          window.location.href = "./transporte-aereo.html";
+        });
+      }
+      </script>
+  </body>
+</html>

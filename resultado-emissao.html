@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./resultado-emissao1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="resultado-emissao">
+      <div class="title-container">
+        <div class="title4"><div class="title5">Resultados</div></div>
+        <div class="indicator2">
+          <div class="building-blocks6">
+            <div class="container6">
+              <div class="state-layer14">
+                <img
+                  class="iconscheck-24px2"
+                  alt=""
+                  src="public/iconscheck-24px.svg"
+                />
+                <div class="label-text8">Emissão</div>
+              </div>
+            </div>
+          </div>
+          <div class="building-blocks7" id="buildingBlocksContainer1">
+            <div class="container7">
+              <div class="state-layer15">
+                <div class="label-text8">Árvores</div>
+              </div>
+            </div>
+          </div>
+          <div class="building-blocks7" id="buildingBlocksContainer2">
+            <div class="container8">
+              <div class="state-layer15">
+                <div class="label-text8">Gráfico</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="total-de-emisses">
+        <div class="descricao1">
+          <p class="total-de-emisses1">Total de emissões:</p>
+          <p class="kgco2-por-ano">(kgCO2 por ano)</p>
+        </div>
+        <div class="ilustracao1">
+          <img class="cloud-icon" alt="" src="public/cloud.svg" />
+          <div class="valor1">99999</div>
+        </div>
+      </div>
+      <div class="button-frame">
+        <button class="button2" id="button">
+          <div class="state-layer17">
+            <div class="label-text11">CALCULAR NOVAMENTE</div>
+          </div>
+        </button>
+      </div>
+      <div class="navigation-bar2">
+        <button class="building-blocks-segment6" id="buildingBlocksSegment">
+          <div class="icon-container6">
+            <div class="state-layer18">
+              <img class="icon6" alt="" src="public/icon.svg" />
+            </div>
+          </div></button
+        ><button class="building-blocks-segment6">
+          <div class="icon-container7">
+            <div class="state-layer18">
+              <img class="icon6" alt="" src="public/icon1.svg" />
+            </div>
+          </div></button
+        ><button class="building-blocks-segment6" id="buildingBlocksSegment2">
+          <div class="icon-container6">
+            <div class="state-layer18">
+              <img class="icon6" alt="" src="public/icon8.svg" />
+            </div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var buildingBlocksContainer1 = document.getElementById(
+        "buildingBlocksContainer1"
+      );
+      if (buildingBlocksContainer1) {
+        buildingBlocksContainer1.addEventListener("click", function (e) {
+          window.location.href = "./resultado-arvore.html";
+        });
+      }
+      
+      var buildingBlocksContainer2 = document.getElementById(
+        "buildingBlocksContainer2"
+      );
+      if (buildingBlocksContainer2) {
+        buildingBlocksContainer2.addEventListener("click", function (e) {
+          window.location.href = "./resultado-grafico.html";
+        });
+      }
+      
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var buildingBlocksSegment = document.getElementById("buildingBlocksSegment");
+      if (buildingBlocksSegment) {
+        buildingBlocksSegment.addEventListener("click", function (e) {
+          window.location.href = "./home-bem.html";
+        });
+      }
+      
+      var buildingBlocksSegment2 = document.getElementById("buildingBlocksSegment2");
+      if (buildingBlocksSegment2) {
+        buildingBlocksSegment2.addEventListener("click", function (e) {
+          window.location.href = "./home-opcoes.html";
+        });
+      }
+      </script>
+  </body>
+</html>

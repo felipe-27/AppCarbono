@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./transporte-aereo.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="transporte-aereo">
+      <header class="exit">
+        <button class="close" id="close">
+          <img class="close-child" alt="" src="public/group-3779.svg" />
+        </button>
+      </header>
+      <div class="progress-bar">
+        <div class="voos1">
+          <div class="line">
+            <img class="progresso-icon" alt="" src="public/progresso.svg" />
+          </div>
+          <div class="dots">
+            <img class="fundo-icon" alt="" src="public/fundo.svg" /><img
+              class="food-icon"
+              alt=""
+              src="public/food.svg"
+            />
+          </div>
+          <div class="dots1">
+            <img class="fundo-icon" alt="" src="public/fundo.svg" /><img
+              class="food-icon"
+              alt=""
+              src="public/bus.svg"
+            />
+          </div>
+          <div class="dots2">
+            <img class="fundo-icon2" alt="" src="public/fundo2.svg" /><img
+              class="avio-icon"
+              alt=""
+              src="public/avio-icon.svg"
+            />
+            <div class="alimentao1">Voos</div>
+          </div>
+          <div class="dots3">
+            <img class="fundo-icon3" alt="" src="public/fundo3.svg" /><img
+              class="borda-icon"
+              alt=""
+              src="public/borda.svg"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="content">
+        <div class="por-quantas-horas-voc-viajou-parent">
+          <div class="por-quantas-horas">
+            Por quantas horas você viajou de avião no último mês?
+          </div>
+          <input class="caixa-de-texto" type="number" placeholder="Horas" />
+        </div>
+        <div class="por-quantas-horas-voc-viajou-parent">
+          <div class="qual-a-quantidade-de-passageir-parent">
+            <div class="por-quantas-horas">
+              Qual a quantidade de passageiros, em média, de cada voo?
+            </div>
+            <div class="caso-no-saiba">*Caso não saiba, use 220</div>
+          </div>
+          <input
+            class="caixa-de-texto"
+            type="number"
+            placeholder="Quantidade"
+          />
+        </div>
+      </div>
+      <div class="actions">
+        <div class="button3" id="buttonContainer">
+          <div class="state-layer21">
+            <div class="label-text12">Anterior</div>
+          </div>
+        </div>
+        <button class="button4" id="button">
+          <div class="state-layer21">
+            <div class="label-text13">Próximo</div>
+          </div>
+        </button>
+      </div>
+    </section>
+
+    <script>
+      var close = document.getElementById("close");
+      if (close) {
+        close.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      
+      var buttonContainer = document.getElementById("buttonContainer");
+      if (buttonContainer) {
+        buttonContainer.addEventListener("click", function (e) {
+          window.location.href = "./transporte-terrestre.html";
+        });
+      }
+      
+      var button = document.getElementById("button");
+      if (button) {
+        button.addEventListener("click", function (e) {
+          window.location.href = "./energia.html";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./creditos1.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@500;600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Source Sans Pro:wght@400;600&display=swap"
+    />
+  </head>
+  <body>
+    <section class="creditos">
+      <button class="icon13" id="icon">
+        <img class="ativo-icon" alt="" src="public/ativo.svg" />
+      </button>
+      <header class="title39"><div class="title40">Créditos</div></header>
+      <div class="opes">
+        <header class="crditos">
+          <div class="title41">Recursos visuais</div>
+          <div class="body-parent">
+            <label class="body6">Imagens: Pixabay</label
+            ><label class="body6">Ilustrações: Storyset</label
+            ><label class="body6">Ícones: Iconify, SVG Repo </label>
+          </div>
+        </header>
+        <header class="crditos">
+          <div class="title41">Dados usados no cálculo</div>
+          <div class="body-parent">
+            <label class="body9"
+              >Emissões relativas de poluentes do transporte motorizado de
+              passageiros nos grandes centros urbanos brasileiros: Carlos
+              Henrique Ribeiro de Carvalho (IPEA)</label
+            ><label class="body9"
+              >Meat Eaters Guide to Climate Change: Environmental Working
+              Group</label
+            ><label class="body9"
+              >UK Government Greenhouse Gases Conversion Factors</label
+            ><label class="body9">Fatores de emissão de CO2: PBE Edifica</label>
+          </div>
+        </header>
+      </div>
+      <div class="navigation-bar4">
+        <div class="building-blocks-segment12" id="buildingBlocksSegment">
+          <div class="icon-container12">
+            <div class="state-layer48">
+              <img class="home-icon1" alt="" src="public/icon.svg" />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment12" id="buildingBlocksSegment1">
+          <div class="icon-container12">
+            <div class="state-layer48">
+              <img
+                class="home-icon1"
+                alt=""
+                src="public/calculadora-icone1.svg"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="building-blocks-segment14">
+          <div class="icon-container14">
+            <div class="state-layer48">
+              <img class="home-icon1" alt="" src="public/opes1.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      var icon = document.getElementById("icon");
+      if (icon) {
+        icon.addEventListener("click", function (e) {
+          window.location.href = "./home-opcoes.html";
+        });
+      }
+      
+      var buildingBlocksSegment = document.getElementById("buildingBlocksSegment");
+      if (buildingBlocksSegment) {
+        buildingBlocksSegment.addEventListener("click", function (e) {
+          window.location.href = "./home-bem.html";
+        });
+      }
+      
+      var buildingBlocksSegment1 = document.getElementById("buildingBlocksSegment1");
+      if (buildingBlocksSegment1) {
+        buildingBlocksSegment1.addEventListener("click", function (e) {
+          window.location.href = "./home-calculo.html";
+        });
+      }
+      </script>
+  </body>
+</html>
